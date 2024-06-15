@@ -7,13 +7,21 @@
     justify-content: space-between;
     z-index: 1;
     transition: background-color 0.3s ease;
+    height: 44px;
+}
+.home{
+    display: flex;
+    align-items: center;
 }
 .home img{
-    width: 172px;
-    height: 100%; 
-    margin-right: 10px; 
-
+    width: 140px;
+    height: 67%; 
+    margin-right: 10px;
+    display: none; 
 }   
+.desaparece{
+    display:none
+}
 .navbar-links{
     display: none;
 }
@@ -24,7 +32,7 @@
     margin-right: 20px;
 }
 #navbar.fixed {
-    background-color: #1e1c1c; 
+    background-color: #101D30; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .home a,
@@ -111,7 +119,7 @@ display: none;
     z-index: 0;
 }
 .obra svg{
-    top: -5px;
+    top: 0px;
     width: 100%;
     position: relative;
 }
