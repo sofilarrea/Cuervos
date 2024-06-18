@@ -32,7 +32,7 @@
     margin-right: 20px;
 }
 #navbar.fixed {
-    background-color: #101D30; 
+    background-color: #101d30; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 .home a,
@@ -95,6 +95,7 @@ display: none;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 370px;
+    background: #0d253f82;
 }
 /* La Firma */
 .section-la-firma{
@@ -102,11 +103,9 @@ display: none;
     color: #4c4c4c;
     padding: 50px;
 }
-/* Wave */
 
 
 /* obra de arte */
-
 .obra {
     margin-top: -29px;
     width: 100%;
@@ -124,3 +123,30 @@ display: none;
     position: relative;
 }
 
+/* Areas de práctica */
+.title-areas-de-practica h1{
+    color: #4c4c4c;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo h4{
+    color: #4c4c4c;
+}
