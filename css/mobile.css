@@ -8,6 +8,8 @@
     z-index: 1;
     transition: background-color 0.3s ease;
     height: 44px;
+    background-color:#101d3000;
+    cursor: pointer;
 }
 .home{
     display: flex;
@@ -17,11 +19,8 @@
     width: 140px;
     height: 67%; 
     margin-right: 10px;
-    display: none; 
 }   
-.desaparece{
-    display:none
-}
+
 .navbar-links{
     display: none;
 }
@@ -70,6 +69,14 @@ display: block;
 }
 .close {
 display: none;
+}
+.logo-navbar{
+    width:70px;
+    height: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+ 
 }
 /* Hero section */
 .hero {
