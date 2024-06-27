@@ -1,0 +1,22 @@
+.socio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-product {
+    flex-direction: column;
+    width: calc(50% - 10px); /* Dos columnas con espacio entre ellas */
+    margin-bottom: 0;
+}
+
+.card-product img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-product-infos {
+    padding: 20px;
+    text-align: center;
+}
